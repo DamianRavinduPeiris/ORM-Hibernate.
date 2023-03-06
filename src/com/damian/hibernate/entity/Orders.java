@@ -22,7 +22,7 @@ public class Orders extends SuperEntity{
     @NonNull
     private Customer customer;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     private List<Item>itemList;
 
 }

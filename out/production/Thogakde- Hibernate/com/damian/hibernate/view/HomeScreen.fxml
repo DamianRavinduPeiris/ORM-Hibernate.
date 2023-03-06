@@ -15,7 +15,7 @@
       <JFXButton fx:id="customerBtn" layoutX="205.0" layoutY="264.0" onAction="#mcOnAction" prefHeight="31.0" prefWidth="168.0" style="-fx-background-color: lightblue;" text="Manage Customers." />
       <JFXButton fx:id="ordersBtn" layoutX="205.0" layoutY="200.0" onAction="#moOnAction" prefHeight="31.0" prefWidth="168.0" style="-fx-background-color: lightblue;" text="Manage Orders." />
       <JFXButton fx:id="itemsBtn" layoutX="205.0" layoutY="137.0" onAction="#miOnAction" prefHeight="31.0" prefWidth="168.0" style="-fx-background-color: lightblue;" text="Manage Items." />
-      <Label fx:id="mainLabel" layoutX="113.0" layoutY="35.0" prefHeight="70.0" prefWidth="376.0" style="-fx-background-color: yellow;" text="Thogakade V.1.0." underline="true">
+      <Label fx:id="mainLabel" layoutX="176.0" layoutY="34.0" prefHeight="70.0" prefWidth="247.0" style="-fx-background-color: yellow;" text="Shop V.1.0." underline="true">
          <font>
             <Font size="47.0" />
          </font>

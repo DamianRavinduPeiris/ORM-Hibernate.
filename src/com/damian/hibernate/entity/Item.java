@@ -20,7 +20,7 @@ public class Item extends SuperEntity{
     private double unitPrice;
     @NonNull
     private int qtyOnHand;
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
             name = "Order_Item",
             joinColumns = @JoinColumn(name = "orderId"),

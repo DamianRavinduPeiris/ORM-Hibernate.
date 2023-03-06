@@ -2,6 +2,7 @@ package com.damian.hibernate.entity;
 
 import lombok.*;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -24,7 +25,7 @@ public class Customer extends SuperEntity{
     private String address;
     @NonNull
     private double salary;
-    @OneToMany(mappedBy = "customer",targetEntity = Orders.class)
+    @OneToMany(mappedBy = "customer",targetEntity = Orders.class,cascade = CascadeType.ALL)
     private List <Orders> order;
 
 
